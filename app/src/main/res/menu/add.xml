@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@drawable/add"
+        android:title=""
+        app:showAsAction="always" />
+
+    <!--android:icon="@drawable/add"-->
+
+
+    <item
+        android:id="@+id/delete"
+        android:icon="@drawable/delete"
+        android:title=""
+        app:showAsAction="always" />
+    <!-- android:icon="@drawable/remove"-->
+
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/done"
+        android:title=""
+        app:showAsAction="always" />
+    <!--android:icon="@drawable/accept"-->
+
+</menu>

@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.anosh.christmasgiftmanager.MainActivity">
+    <item
+        android:id="@+id/submenu"
+        android:icon="@drawable/add"
+        android:title=""
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_addPerson"
+
+                android:title="Add Person" />
+            <item
+                android:id="@+id/action_addGroup"
+
+                android:title="Add Group" />
+            <item
+                android:id="@+id/action_addStore"
+
+                android:title="Add Store" />
+        </menu>
+    </item>
+</menu>
